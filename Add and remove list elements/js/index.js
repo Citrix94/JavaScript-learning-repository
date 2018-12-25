@@ -16,8 +16,8 @@ const init = () => {
     btnRemove.style.cursor = "pointer";
     btnRemove.style.marginLeft = "20px";
 
-    const UlList = document.createElement('ul');
-    document.body.appendChild(UlList);
+    const ulList = document.createElement('ul');
+    document.body.appendChild(ulList);
 
     btnAdd.addEventListener('click', createLiElements);
     btnRemove.addEventListener('click', removeElements);
